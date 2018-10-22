@@ -37,5 +37,15 @@
 - 말그대로 4096개의 뉴런중 0.5의 확률로 임의로 결과를 버린다.
 - 이를 통해 현재(2018)에는 표준화 되었지만 상당히 overfitting을 방지할수 있게 되었다.
 
+5 Details of learning
 
+- 해당논문에서는 0.0005의 learning rate, 0.9의 momentum을 가지는 128의 batch size를 활용한 stochastic gradient descent로 손실함수를 최적화 하였다.
+- 논문상에서 0.0005의 learning rate가 중요하다고 밝혔는데, 이보다 더 적은 learning rate에 따른 오차율에 대해선 언급하지 않아서 over-fitting되었기 때문에 생략한 것으로 보인다.
+- 논문상에는 parameter에 대한 regularization은 해주지 않았다.
+- neural network가 최적화 되기위한 weight을 설정해 주어야 하는데 학습전 initialized weight은 0.01의 표준편차를 가지는 zero-mean gaussian distribution을 사용하였다.
+- initialized weight에 대해서는 gradient descent로 weight을 최적화 해주기위한 임시수단이기 때문에 초기 학습시 약간의 수렴속도에 영항을 줄수 있지만 실질적인 모델의 평가 성능에는 큰 영향을 주지 않는 것으로 알고 있다.
 
+6 Results & 7 Discussion
+
+- 이전에 언급하였듯이 당시 TOP-1 error rate이 37.5%로 최고의 성능을 보이며 Deep Convolutional Neural Network가 이미지 분류에 아주 뛰어난 성능을 보임을 증명하였다.
+- 추가적으로 논문상에는 모델 개선을 위해 raw 이미지를 auto-encoder로 축약된 정보를 제공할 경우 더 나은 성늘을 보일수 있다고 하였다.
