@@ -1,7 +1,7 @@
 # paperNote
 
 ### ImageNet Classification with Deep Convolutional Neural Networks (2012) [[pdf](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)]
-- review (in process)
+- review
 
 ### ~Auto-Encoding Variational Bayes (2013) [[pdf](https://arxiv.org/pdf/1312.6114.pdf)]~
 - ~review~
@@ -13,7 +13,7 @@
 - ~review~
 
 ### Deep Residual Learning for Image Recognition (2015) [[pdf](https://arxiv.org/pdf/1512.03385.pdf)]
-- review (comming soon)
+- review (in process)
 
 ### ~U-Net: Convolutional Networks for Biomedical Image Segmentation (2015) [[pdf](https://arxiv.org/pdf/1505.04597.pdf)]~
 - ~review~
