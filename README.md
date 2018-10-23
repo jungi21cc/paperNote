@@ -12,6 +12,9 @@
 ### ~Efficient Estimation of Word Representations in Vector Space (2013) [[pdf](https://arxiv.org/pdf/1301.3781.pdf)]~
 - ~review~
 
+### ~Sequence to Sequence Learning with Neural Networks (2014) [[pdf](https://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf)]~
+- ~review~
+
 ### Deep Residual Learning for Image Recognition (2015) [[pdf](https://arxiv.org/pdf/1512.03385.pdf)]
 - review (in process)
 
