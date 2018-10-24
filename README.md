@@ -29,3 +29,6 @@
 
 ### ~Training Deep AutoEncoders for Collaborative Filtering (2017) [[pdf](https://arxiv.org/pdf/1708.01715.pdf)]~
 - ~review~
+
+### ~Adversarial Complementary Learning for Weakly Supervised Object Localization (2018) [[pdf](https://arxiv.org/pdf/1804.06962.pdf)]~
+- ~review~
