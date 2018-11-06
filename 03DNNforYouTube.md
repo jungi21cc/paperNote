@@ -22,9 +22,15 @@
 
 ### 2. SYSTEM OVERVIEW
 
-- recommand system은 크게 두가지 구조로 나뉜다; candidate generation, ranking
+- recommand system은 크게 두가지 구조로 나뉜다; candidate generation, ranking. 구조에 대한 설명은 아래에서 자세히 다루기에 넘어가겠다.
+- Deep neural network를 학습하는데 offilne metric으로 recall, precision, loss등을 사용하였지만, 실제로는 A/B테스트를 통해 모델을 평가하였다.
+- click-through rate, watch time등을 통한 A/B테스트의 성능개선이 있을때를 기준으로 모델을 평가하였다고 한다. 이는 Google Analytics에서 제공하는 지표들이므로 GA를 사용해 실제 UI/UX의 개선유무를 고민하였다고 추정된다.
 
-	- candidate generation: 
+### 3. CANDIDATE GENERATION
+
+##### 3.1 Recommendation as Classification
+
+- 
 
 
 
