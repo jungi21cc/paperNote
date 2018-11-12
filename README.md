@@ -22,7 +22,7 @@
 - ~review~
 
 ### Deep Neural Networks for YouTube Recommendations (2016) [[pdf](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45530.pdf)]
-- review (comming soon)
+- review (in process)
 
 ### ~Deep Image Retrieval:Learning global representations for image search (2016) [[pdf](https://arxiv.org/pdf/1604.01325.pdf)]~
 - ~review~
